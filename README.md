@@ -56,6 +56,7 @@ Perfect for hoarding code snippets, URLs, quotes, error messages, rants, and eve
 ClipboardHoover/
 ├── hoover.py          # The vacuum — main script
 ├── requirements.txt   # The one thing it needs
+├── .gitignore         # Keeps the vault out of git
 ├── LICENSE            # MIT
 └── README.md          # You are here
 ```
@@ -65,7 +66,7 @@ ClipboardHoover/
 ## Installation
 
 ```bash
-git clone https://github.com/sudo0xsajal/ClipboardHoover.git
+git clone https://github.com/Sudo0xSajal/ClipboardHoover.git
 cd ClipboardHoover
 
 pip install -r requirements.txt
@@ -90,6 +91,10 @@ Press **Ctrl+C** to stop — it will print a clean session summary and exit.
 
 ---
 
+## Example Terminal Output
+
+![ClipboardHoover terminal output](image.png)
+
 ---
 
 ## The Vault (`the_loot.txt`)
@@ -98,7 +103,7 @@ All captured entries are appended here:
 
 ```
 [2026-03-06 23:17:45]
-https://github.com/some/insane/repo
+https://github.com/Sudo0xSajal
 ────────────────────────────────────────────────────────────────────────────────
 [2026-03-06 23:44:12]
 def cursed_function(): return lambda: lambda: None
